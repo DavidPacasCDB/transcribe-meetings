@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+psycopg2-binary
+celery
+redis
+python-dotenv
+transformers
+huggingface_hub
+openai
+elasticsearch
+python-multipart
+httpx
