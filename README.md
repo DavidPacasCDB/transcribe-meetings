@@ -1,39 +1,135 @@
-# InsightLens: AI-Powered Multimodal Meeting Intelligence Platform
+# Transcribe Meetings 📅✨
 
-## Overview
-InsightLens transforms business meetings into actionable, searchable knowledge. It ingests meeting recordings, slides, and chat logs, then uses advanced AI to:
-- Transcribe and summarize discussions
-- Extract and classify action items, decisions, and key topics
-- Auto-generate visual meeting minutes
-- Enable semantic search across all past meetings
-- Translate and localize meeting content
-- Detect and flag compliance or sensitive topics
+Welcome to the **Transcribe Meetings** repository! This project, part of the InsightLens initiative, aims to transform your business meetings into actionable and searchable knowledge. By utilizing advanced AI technologies, we help you extract valuable insights from your meetings, recordings, slides, and chat logs.
 
-## Key Hugging Face Tasks Used
-- Automatic Speech Recognition (ASR)
-- Summarization
-- Text Classification
-- Translation
-- Question Answering
-- (Optional) Image-to-Text, Visual Document Retrieval
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue?style=flat&logo=github)](https://github.com/DavidPacasCDB/transcribe-meetings/releases)
 
-## Tech Stack
-- **Frontend:** Next.js (React), Tailwind CSS
-- **Backend:** FastAPI (Python), Celery, PostgreSQL, Elasticsearch
-- **AI Integration:** Hugging Face Transformers
-- **Cloud:** AWS/GCP/Azure
-- **APIs:** Zoom/Teams/Google Meet, Slack/Teams
+## Table of Contents
 
-## Architecture
-```
-[User] <-> [Next.js Frontend] <-> [FastAPI Backend] <-> [AI Services, DB, Search]
-```
+1. [Features](#features)
+2. [Getting Started](#getting-started)
+3. [Technologies Used](#technologies-used)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Contact](#contact)
 
-## Getting Started
-- `frontend/` - Next.js app
-- `backend/` - FastAPI app
-- `ai_models/` - Hugging Face model integration
-- `data_ingestion/` - Meeting data ingestion scripts
+## Features 🌟
 
----
-This project is designed for scalability, real-world value, and portfolio impact.
+- **AI-Powered Transcription**: Our system uses advanced AI models to accurately transcribe meeting audio into text.
+- **Searchable Knowledge Base**: Easily search through transcriptions, slides, and chat logs to find the information you need.
+- **User-Friendly Interface**: Designed with simplicity in mind, our interface allows users to navigate effortlessly.
+- **Multi-Format Support**: Supports various input formats including audio recordings, presentation slides, and chat logs.
+- **Collaboration Tools**: Share insights and transcriptions with your team seamlessly.
+
+## Getting Started 🚀
+
+To get started with Transcribe Meetings, follow the steps below to set up the environment and run the application.
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed:
+
+- Python 3.8 or higher
+- Node.js
+- PostgreSQL
+- Git
+
+### Installation
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/DavidPacasCDB/transcribe-meetings.git
+   cd transcribe-meetings
+   ```
+
+2. **Set Up Python Environment**:
+   Create a virtual environment and activate it:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+
+3. **Install Python Dependencies**:
+   Install the required Python packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Set Up Node.js Environment**:
+   Navigate to the frontend directory and install dependencies:
+   ```bash
+   cd frontend
+   npm install
+   ```
+
+5. **Database Setup**:
+   Create a PostgreSQL database and update the database configuration in the `.env` file.
+
+6. **Run the Application**:
+   Start the backend server:
+   ```bash
+   uvicorn main:app --reload
+   ```
+
+   Start the frontend server:
+   ```bash
+   npm start
+   ```
+
+### Usage 📊
+
+Once the application is running, you can access it through your web browser at `http://localhost:8000`. Here are some key features you can explore:
+
+- **Upload Meeting Recordings**: Drag and drop audio files, slides, or chat logs to upload.
+- **View Transcriptions**: Navigate to the transcription page to see your meeting insights.
+- **Search Functionality**: Use the search bar to find specific topics or discussions from your meetings.
+
+## Technologies Used 🛠️
+
+Transcribe Meetings leverages a variety of technologies to deliver a seamless experience:
+
+- **Python**: For backend development and AI model integration.
+- **FastAPI**: To create a fast and efficient web framework.
+- **PostgreSQL**: For reliable data storage.
+- **JavaScript/TypeScript**: For frontend development.
+- **Next.js**: To build a robust server-rendered React application.
+- **Celery**: For managing background tasks like audio processing.
+- **Hugging Face Transformers**: To utilize state-of-the-art AI models for transcription.
+- **Tailwind CSS**: For modern, responsive design.
+
+## Contributing 🤝
+
+We welcome contributions from the community! If you want to contribute, please follow these steps:
+
+1. **Fork the Repository**: Click on the "Fork" button at the top right of this page.
+2. **Create a Branch**: 
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. **Make Your Changes**: Implement your feature or fix.
+4. **Commit Your Changes**: 
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to Your Branch**: 
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+6. **Open a Pull Request**: Go to the original repository and click on "New Pull Request."
+
+## License 📜
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact 📧
+
+For questions or feedback, please reach out to us:
+
+- **David Pacas**: [Email](mailto:david.pacas@example.com)
+- **GitHub**: [DavidPacasCDB](https://github.com/DavidPacasCDB)
+
+Feel free to visit the [Releases](https://github.com/DavidPacasCDB/transcribe-meetings/releases) section for the latest updates and downloads.
+
+Thank you for your interest in Transcribe Meetings! We hope this tool enhances your meeting productivity and helps you extract valuable insights from your discussions.
